@@ -1,1 +1,1 @@
-# geog-458-lab3
+# Thematic Maps of COVID-19 in US
