@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://api.mapbox.com/mapbox-gl-js/v2.8.1/mapbox-gl.css" rel="stylesheet">
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.8.1/mapbox-gl.js"></script>
+    <link rel="stylesheet" href="css/style.css"/>
+</head>
+
+<body>
+    <div id="map"></div>
+    <dive id="title">
+      2020 Covid-19 Rates by US County
+    </dive>
+    <div class='map-overlay' id='features'>
+      <div id='text-description'>
+        <p><b>Hover over a county!</b></p>
+      </div>
+    </div>
+    <div id="subtitle">
+      This is a choropleth map of 2020 Covid-19 case rates grouped by counties
+      in US. Hover over the counties to view details. The details include
+      county name and Covid-19 rate.
+    </div>
+    <div class='map-overlay' id="legend"></div>
+    <script src="js/main.js"></script>
+    <div id="source">
+      <p>Source: <a href="https://github.com/nytimes/covid-19-data/blob/43d32dde2f87bd4dafbb7d23f5d9e878124018b8/live/us-counties.csv">The New York Times,
+                <a href="https://data.census.gov/cedsci/table?g=0100000US.050000&d=ACS%205-Year%20Estimates%20Data%20Profiles&tid=ACSDP5Y2018.DP05&hidePreview=true"> Census Bureau</a><br></p>
+    </div>
+</body>
+
+</html>
