@@ -88,15 +88,4 @@ layers.forEach((layer, i) => {
 });
 
 
-const source1 =
-'<p style="text-align: right;  font-size:8pt">Source: <a href="https://github.com/nytimes/covid-19-data/blob/43d32dde2f87bd4dafbb7d23f5d9e878124018b8/live/us-counties.csv">The New York Times,</a><br></p>';
-
-const source2 =
-'<p style="text-align: right;  font-size:8pt"><a href="https://data.census.gov/cedsci/table?g=0100000US.050000&d=ACS%205-Year%20Estimates%20Data%20Profiles&tid=ACSDP5Y2018.DP05&hidePreview=true"> Census Bureau</a><br></p>';
-
-legend.innerHTML = labels.join('') + source1 + source2;
-
-
-
-
 
