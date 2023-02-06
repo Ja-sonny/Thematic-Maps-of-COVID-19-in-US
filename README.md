@@ -1,5 +1,5 @@
 # Thematic Maps of COVID-19 in US
-For this lab we were able to navigate through the introductory skills of Mapbox library in Javascript. With the Mapbox library, I was able to create two maps. One is a 2020 Covid-19 case count by county proportional symbols map and the other is a 2020 Covid-19 rates by county choropleth map.
+For this lab we were able to navigate through the introductory skills of Mapbox library in Javascript. With the Mapbox library, I was able to create two maps. One is a 2020 Covid-19 case count by county proportional symbols map and the other is a 2020 Covid-19 rates by county choropleth map. Both maps are accessible with different features. If the user hovers his mouse over a county on the Choropleth Map, the details regarding the county is shown in the top right corner. For the Proportional Symbols Map, if the user clicks on the county, a popup will show the details regarding the Covid-19 case count and county name.
 
 # Maps
 ## 2020 Covid-19 Case Rate by County in US Choropleth Map
